@@ -1,5 +1,8 @@
 Pan 
-galletitas
+
 bananas
 manzanas 
 peras
+
+sandias 
+papas
