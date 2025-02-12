@@ -1,0 +1,19 @@
+.accordion-button:not(.collapsed) {
+
+    background-color: #d36c52;
+    font-weight: 800;
+
+}
+
+
+.nav-link {
+    color: #0e0c0b;
+    text-align: center;
+    margin: 10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #01050c;
+}
