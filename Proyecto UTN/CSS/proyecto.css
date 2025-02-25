@@ -1,0 +1,238 @@
+/*
+ font-family: "Ysabeau SC", serif; 
+*/
+
+body {
+    font-family: "Ysabeau SC", serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+header {
+    background-color: #f7cca9;
+    padding: 10px;
+    margin: 0;
+}
+
+header h1 {
+    color: #9e9e9e;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #848672;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: black;
+}
+
+footer {
+    background-color: #848672;
+    clear: both;
+    color: pink;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+nav ul li a.activo {
+    background-color: #8f4125;
+}
+
+.holder {
+    max-width: 960px;
+    margin: auto 0;
+}
+
+main img {
+    width: 1400px;
+    height: 400px;
+    padding: 30px 15px 10px 50px;
+    margin: 0;
+
+}
+
+h2 {
+    color: pink;
+    font-weight: 400;
+}
+
+.Bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+
+/* fin inicio */
+/*inicio nosotros*/
+
+.Historia {
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    border: 2px solid beige;
+    border-radius: 5px;
+    text-align: center;
+    padding: 55px;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+
+.persona img {
+    border-radius: 50;
+    max-width: 60;
+    box-shadow: 0 0 5px beige;
+}
+
+.persona h2 {
+    font-weight: normal;
+    color: #8f4125;
+}
+
+/*Fin de nosotros*/
+/*Inicio servicios*/
+
+
+.Servicios {
+    padding: 16px;
+    margin: 16px 0px;
+}
+
+.Servicios .Servicio1 {
+    border: 1px solid beige;
+    margin: 11px;
+}
+
+.Servicios .Servicio2 {
+    border: 1px solid beige;
+}
+
+.Servicios .Servicio3 {
+    border: 1px solid beige;
+}
+
+.Servicios .Servicio1 h4 {
+    font-size: 15px;
+}
+
+/* fin de servicios*/
+
+/*Inicio Productos*/
+
+.Productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Permite que las imágenes pasen a la siguiente línea si no caben */
+    align-items: center;
+    /* Centra verticalmente */
+    gap: 10px;
+    /* Espaciado entre imágenes */
+    padding: 20px;
+    /* Margen interno */
+}
+
+
+.Productos img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid bisque;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+/*fin de productos*/
+
+/*Inicio contacto*/ 
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.Formulario p {
+    display: flex;
+}
+
+.Formulario p label {
+    min-width: 80px;
+}
+
+.Formulario p input,
+.Formulario p textarea {
+    width: 100%;
+    border: radius 5px; ;
+    border: 1px solid #9e9e9e;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.Formulario p label {
+    display: flex;
+    align-items: center;
+}
+
+.Formulario input[type="submit"] {
+    background-color: #8f4125;
+    box-shadow: 0 0 10px black;
+    color: azure;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem ;
+    cursor: pointer;
+}
+
+
+
+/*fin de contacto*/
