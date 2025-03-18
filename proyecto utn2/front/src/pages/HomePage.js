@@ -1,4 +1,3 @@
-
 const HomePage = (props) => {
     return (
         <main className="holder">
@@ -24,4 +23,4 @@ const HomePage = (props) => {
     );
     }
 
-    export default HomePages; 
+    export default HomePage; 

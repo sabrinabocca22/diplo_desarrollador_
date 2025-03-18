@@ -1,4 +1,3 @@
-
 const NovedadesPage = (props) => {
     return (
         <section className="holder">
