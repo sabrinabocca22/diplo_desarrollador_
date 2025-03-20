@@ -1,8 +1,10 @@
+import './../styles/home.css';
+import avion from '../pages/avion-binter.jpeg'
 const HomePage = (props) => {
     return (
         <main className="holder">
             <div className="homeimg">
-                <img src="images/home/img01.jpg" alt="avion" />
+            <img src={avion} alt="Avión de carga" style={{ width: '50%' }} />
                 </div>
                     <div className="columnas">
                         <div className="bienvenidos left">
