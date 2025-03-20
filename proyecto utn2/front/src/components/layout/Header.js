@@ -1,12 +1,13 @@
 const Header = (props) => {
-    return ( 
-        <Header>
-        <div className = "holder">
-        <img src="img/logo192.png" width="100" alt="Transortes X" />
-        <h1>Transortes</h1>
+    return (
+      <header>
+        <div className="holder">
+          <img src="src/components/layout/6666831.png" width="100" alt="Transportes X" />
+          <h1>Transportes</h1>
         </div>
-        </Header>
-    )
-    }
-
-    export default Header ;
+      </header>
+    );
+  }
+  
+  export default Header;
+  

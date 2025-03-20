@@ -1,10 +1,11 @@
-import React from 'react'
-const Footer = (props) => {
-    return (
-       <Footer>
-        <p>Derechos reservados. Transporte X año </p>
-       </Footer>
-    );
-    }
+import React from 'react';
 
-    export default Footer; 
+const Footer = (props) => {
+  return (
+    <footer>
+      <p>Derechos reservados. Transporte X año</p>
+    </footer>
+  );
+};
+
+export default Footer;
